@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>New Title 1</title>
+	<link rel="stylesheet" type="text/css" href="basic_style.css">
+</head>
+
+<body>
+	<!--  Some text on page.<br> 
+	NEw 4. -->
+	
+	<form method="post" action="MyServlet"> 
+		<table>
+			<tr>
+				<td>Имя:</td>
+				<td><input type="text" name="firstName"></td>
+			</tr>
+			<tr>
+				<td>Фамилия:</td>
+				<td><input type="text" name="lastName"></td>
+			</tr>
+			
+			<tr>
+				<td>Профессия</td>
+				<td>
+					<select name="job" multiple="4">
+						<option selected value="Developer">Разработчик </option>
+						<option value="Tester">Тестировщик </option>
+						<option value="Analyst">Аналитик </option>
+					</select>
+				</td>
+			</tr>
+			
+			<!-- 
+			<tr>
+				<td align="right" colspan="2">
+					<input type="submit" value="Отправить">
+				</td>
+			</tr>  -->
+			<tr>
+				<td><input type="radio" name="gender" value="М">
+				Мужчина</td>
+				<td><input type="radio" name="gender" value="Ж">
+				Женщина</td>
+			</tr>
+			<tr>
+				<td>Старше 18 лет?</td>
+				<td>
+					<input type="checkbox" name="age18" value="ДА">
+					Да
+					<br>
+				</td>
+			</tr>
+			<tr>
+				<td>Выберите файл</td>
+				<td><input type="file"></td>
+			</tr>
+			<tr>
+				<td>Введите пароль:</td>
+				<td><input type="password"></td>
+			</tr>
+			<tr>
+				<td align="right" colspan="2">
+					<input type="submit" value="Отправить">
+				</td>
+			</tr>
+		</table>
+
+	</form>	
+</body>
+</html>
